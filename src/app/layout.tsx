@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+
 export const metadata: Metadata = {
   title: "TakeDown Hackathon",
   description: "hackathon Event Hosted By Universal Engineering College Thrissur, Kerala.",
