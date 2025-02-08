@@ -9,9 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#280f00",
+        secondary: "#e0ad74",
       },
+      fontFamily: {
+        primary: ['Cormorant Garamond', 'serif'],
+        secondary: ['Lobster Two', 'cursive'],
+      },
+      boxShadow: {
+        loader_top: "0 14px 15px rgba(0, 0, 0, 0.3)",
+        loader_bot: "0 -14px 15px rgba(0, 0, 0, 0.3)"
+      }
     },
   },
   plugins: [],
