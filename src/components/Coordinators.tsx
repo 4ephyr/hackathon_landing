@@ -44,7 +44,7 @@ export default function Coordinators() {
               />
               <div className="text-center">
                 <h1 className="text-secondary font-bold font-primary text-2xl">
-                  Shinoj
+                  Shinoj E M
                 </h1>
                 <p className="text-secondary font-primary italic text-lg">
                   Chief Coordinator
@@ -63,7 +63,7 @@ export default function Coordinators() {
               />
               <div className="text-center">
                 <h1 className="text-secondary font-bold font-primary text-2xl">
-                  Diya
+                  Diya El Fadhil
                 </h1>
                 <p className="text-secondary font-primary italic text-lg">
                   Chief Coordinator
