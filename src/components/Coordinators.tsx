@@ -16,11 +16,11 @@ export default function Coordinators() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center gap-4">
               <Image
-                src="/hackathon_landing/assets/nighila.jpg"
+                src="/hackathon_landing/assets/nighila.jpeg"
                 width={300}
-                height={300}
+                height={250}
                 alt="nighila"
-                className="rounded-xl shadow-image grayscale"
+                className="rounded-xl shadow-image grayscale h-[400px] w-[400px] object-cover"
                 priority
               />
               <div className="text-center">
@@ -36,10 +36,10 @@ export default function Coordinators() {
               <Image
                 src="/hackathon_landing/assets/shinoj.jpg"
                 width={300}
-                height={300}
+                height={250}
                 quality={50}
                 alt="shinoj"
-                className="rounded-xl shadow-image grayscale"
+                className="rounded-xl shadow-image grayscale h-[400px] w-[400px] object-cover"
                 priority
               />
               <div className="text-center">
@@ -55,10 +55,10 @@ export default function Coordinators() {
               <Image
                 src="/hackathon_landing/assets/diya.jpg"
                 width={300}
-                height={300}
+                height={250}
                 alt="diya"
                 quality={50}
-                className="rounded-xl shadow-image"
+                className="rounded-xl shadow-image grayscale h-[400px] w-[400px] object-cover"
                 priority
               />
               <div className="text-center">
