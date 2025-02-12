@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <main className="sm:h-screen h-[120vh] flex flex-col justify-center items-center px-8 container mx-auto sm:pt-32 pt-16">
+    <main className="sm:h-screen h-[120vh] flex flex-col justify-center items-center px-8 container mx-auto sm:pt-32 pt-32">
       <div className="flex flex-col">
         <section className="flex flex-col md:flex-row sm:items-center text-center md:text-left gap-8 w-full justify-center">
           <div className="flex justify-center">
@@ -37,37 +37,36 @@ export default function Hero() {
         </section>
       </div>
       <section className="flex flex-col items-center justify-center text-center py-5">
-  <h2 className="underline font-secondary italic text-xl">
-    In partnership with:
-  </h2>
-  <div className="py-8 flex justify-center w-full">
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-lg md:max-w-3xl place-items-center">
-      <Image
-        src="/hackathon_landing/assets/lazeez.png"
-        width={150}
-        height={150}
-        alt="Partner Logos"
-      />
-      <Image
-        src="/hackathon_landing/assets/spinx.png"
-        width={150}
-        height={150}
-        alt="Partner Logos"
-        className="invert"
-      />
-      <div className="col-span-2 md:col-span-1 flex justify-center">
-        <Image
-          src="/hackathon_landing/assets/cloud.png"
-          width={150}
-          height={150}
-          alt="Partner Logos"
-          className="invert"
-        />
-      </div>
-    </div>
-  </div>
-</section>
-
+        <h2 className="underline font-secondary italic text-xl">
+          In partnership with:
+        </h2>
+        <div className="py-8 flex justify-center w-full">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-lg md:max-w-3xl place-items-center">
+            <Image
+              src="/hackathon_landing/assets/spinx.png"
+              width={150}
+              height={150}
+              alt="Partner Logos"
+              className="invert"
+            />
+            <Image
+              src="/hackathon_landing/assets/cloud.png"
+              width={150}
+              height={150}
+              alt="Partner Logos"
+              className="invert"
+            />
+            <div className="col-span-2 md:col-span-1 flex justify-center">
+              <Image
+                src="/hackathon_landing/assets/lazeez.png"
+                width={150}
+                height={150}
+                alt="Partner Logos"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

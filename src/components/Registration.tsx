@@ -3,18 +3,18 @@ import { Icon } from "@iconify-icon/react";
 
 export default function Registration() {
   return (
-    <main
+    <section
       id="register"
       className="w-full sm:h-screen bg-secondary flex flex-col items-center py-8 sm:p-0"
     >
       <div className="text-center py-8 w-full">
-        <h1 className="sm:text-6xl text-3xl text-primary font-bold font-primary">
+        <h1 className="sm:text-6xl text-4xl text-primary font-bold font-primary">
           Registration
         </h1>
       </div>
 
       <div className="sm:flex justify-center items-center w-full sm:max-w-5xl gap-12 px-8 h-[50%]">
-        <div className="sm:flex flex-col gap-8 text-center md:text-left sm:w-1/2">
+        <div className="sm:flex flex-col sm:gap-8 text-center md:text-left sm:w-1/2">
           <div>
             <h1 className="font-semibold text-primary text-2xl italic font-primary">
               Date and Timing :-
@@ -38,7 +38,7 @@ export default function Registration() {
 
         <div className="h-[200px] w-[2px] bg-primary hidden sm:block"></div>
 
-        <div className="flex flex-col gap-14 sm:pl-16 p-0 text-center md:text-left sm:w-1/2 mt-8 sm:m-0">
+        <div className="flex flex-col gap-8 sm:gap-14 sm:pl-16 p-0 text-center md:text-left sm:w-1/2 mt-8 sm:m-0">
           <div className="sm:flex gap-4 items-center">
             <Icon
               className="text-secondary bg-primary p-3 rounded-full"
@@ -68,9 +68,9 @@ export default function Registration() {
               width="32"
               height="32"
             />
-            <p className="text-primary font-semibold text-xl italic">
-              Universal Engineering College <br />
-              Vallivattom, Thrissur
+            <p className="text-primary font-semibold text-xl italic underline">
+              <a href="https://maps.app.goo.gl/aBkBWGPAz3yUPyNj6">Universal Engineering College <br />
+              Vallivattom, Thrissur (Click Here)</a>
             </p>
           </div>
         </div>
@@ -90,6 +90,6 @@ export default function Registration() {
           Register Now!
         </a>
       </div>
-    </main>
+    </section>
   );
 }

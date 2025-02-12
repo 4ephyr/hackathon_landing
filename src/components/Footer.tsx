@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 const images = [
   "/hackathon_landing/assets/lazeez.png",
-  "/hackathon_landing/assets/iedc.png",
   "/hackathon_landing/assets/spinx.png",
+  "/hackathon_landing/assets/iedc.png",
   "/hackathon_landing/assets/race_dark.png",
   "/hackathon_landing/assets/cloud.png",
   "/hackathon_landing/assets/lazeez.png",
-  "/hackathon_landing/assets/iedc.png",
   "/hackathon_landing/assets/spinx.png",
+  "/hackathon_landing/assets/iedc.png",
   "/hackathon_landing/assets/race_dark.png",
   "/hackathon_landing/assets/cloud.png",
 ];
@@ -31,8 +31,8 @@ export default function Footer() {
       <div className="relative w-full h-full flex items-center overflow-hidden justify-center bg-transparent mb-8">
         <motion.div
           className="flex whitespace-nowrap gap-16 items-center"
-          animate={{ x: ["0%", "-50%"] }}
-          transition={{ repeat: Infinity, duration: 8, ease: "linear" }}
+          animate={{ x: ["0%", "-100%"] }}
+          transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
           style={{ display: "flex" }}
         >
           {[...images, ...images].map((src, index) => {
