@@ -27,11 +27,11 @@ export default function Navbar() {
   return (
     <header>
       <nav
-        className={`fixed top-0 w-full flex justify-between z-10 max-h-fit mx-auto items-center p-4 px-16 pt-5 text-white text-center transition-all duration-300 ${
+        className={`fixed top-0 w-full flex justify-between z-10 max-h-fit mx-auto items-center p-6 px-16 pt-12 text-white text-center transition-all duration-300 ${
           showNavbar ? "translate-y-0" : "-translate-y-full"
-        } ${isScrolled ? "bg-primary shadow-lg" : "bg-transparent"}`}
+        } ${isScrolled ? "bg-primary shadow-lg pt-6" : "bg-transparent"}`}
       >
-        <a href="/">
+        <a href="#">
           <Image
             src="/hackathon_landing/assets/TDLogo.svg"
             alt="Takedown Logo"
@@ -53,7 +53,7 @@ export default function Navbar() {
         <div>
           <a
             href="#register"
-            className="text-primary font-semibold rounded-lg text-lg bg-secondary px-6 py-3 hover:opacity-95"
+            className="text-primary md:ml-24 font-semibold rounded-lg text-lg bg-secondary px-6 py-3 hover:opacity-95"
           >
             Register
           </a>

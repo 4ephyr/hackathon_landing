@@ -20,6 +20,7 @@ export default function Coordinators() {
               height={300}
               alt=""
               className="rounded-xl shadow-image"
+              priority
             />
             <div>
               <h1 className="text-secondary font-bold font-primary text-2xl">
@@ -37,6 +38,7 @@ export default function Coordinators() {
               height={300}
               alt="shinoj"
               className="rounded-xl shadow-image grayscale"
+              priority
             />
             <div>
               <h1 className="text-secondary font-bold font-primary text-2xl">
@@ -54,6 +56,7 @@ export default function Coordinators() {
               height={300}
               alt="nighila"
               className="rounded-xl shadow-image"
+              priority
             />
             <div>
               <h1 className="text-secondary font-bold font-primary text-2xl">

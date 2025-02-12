@@ -12,9 +12,9 @@ const images = [
 
 const imageStyles: Record<string, string> = {
     "lazeez.png": "",
-    "iedc.png": "grayscale",
+    "iedc.png": "grayscale h-[100px]",
     "spinx.png": "invert",
-    "race_dark.png": "",
+    "race_dark.png": "h-[70px]",
     "cloud.png": "invert",
 };
 
@@ -25,7 +25,7 @@ export default function Footer() {
     <footer>
       <div className="relative w-full h-full flex items-center overflow-hidden justify-center bg-transparent mb-8">
         <motion.div
-          className="flex whitespace-nowrap gap-16"
+          className="flex whitespace-nowrap gap-16 items-center"
           animate={{ x: ["0%", "-50%"] }}
           transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
           style={{ display: "flex" }}
@@ -64,7 +64,7 @@ export default function Footer() {
             </div>
             <div className="p-10 flex flex-col items-center gap-8">
               <Image src='/hackathon_landing/assets/TDLogoDark.svg' width={300} height={300} alt="Logo"></Image>
-              <Image src='/hackathon_landing/assets/uec_creamy.png' width={70} height={70} alt="Logo"></Image>
+              <a href="https://uec.ac.in" target="_blank"><Image src='/hackathon_landing/assets/uec_creamy.png' width={70} height={70} alt="Logo"></Image></a>
             </div>
             <div className="p-10 flex flex-col items-end content-end text-right">
               <h1 className="text-primary font-secondary font-lighter text-xl italic">Locate Us :</h1>

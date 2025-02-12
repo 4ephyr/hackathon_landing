@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="flex justify-center">
           <Image
             src="/hackathon_landing/assets/sysimg.svg"
-            className="shrink-0 p-5"
+            className="shrink-0 p-5 mr-10"
             width={400}
             height={400}
             alt="Hackathon Illustration"
