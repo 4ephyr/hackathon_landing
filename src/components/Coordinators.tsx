@@ -13,7 +13,7 @@ export default function Coordinators() {
       </div>
       <div className="w-full max-w-[70%]">
         <div className="w-full py-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center gap-4">
               <Image
                 src="/hackathon_landing/assets/shinoj.jpg"
@@ -50,7 +50,7 @@ export default function Coordinators() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center gap-4 col-span-2 md:col-span-1">
+            <div className="flex flex-col items-center gap-4 sm:col-span-2">
               <Image
                 src="/hackathon_landing/assets/diya.jpg"
                 width={300}
