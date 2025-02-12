@@ -79,7 +79,7 @@ export default function Registration() {
       <div className="flex flex-col items-center gap-8 justify-center w-full mt-8">
         <div>
           <h1 className="text-primary sm:text-3xl text-2xl text-center font-bold font-primary">
-            Registration Fee : 200 INR (Per Head)
+            Registration Fee : 199 INR (Per Head)
           </h1>
         </div>
         <a

@@ -50,12 +50,12 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="relative">
+      <body className="relative text-secondary">
         <Image
           src={"/hackathon_landing/assets/Bg.png"}
           alt="Background"
           fill
-          quality={100}
+          quality={50}
           style={{ zIndex: -1 }}
           className="absolute !-top-4"
           priority
