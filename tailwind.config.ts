@@ -18,6 +18,10 @@ export default {
       },
       boxShadow: {
         image: "0 14px 85px rgba(0, 0, 0, 0.3)",
+      },
+      screens: {
+        mb: { max: "768px" },
+        mx: { min: "1224px" },
       }
     },
   },

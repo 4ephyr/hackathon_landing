@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { header } from "framer-motion/client";
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -27,9 +26,9 @@ export default function Navbar() {
   return (
     <header>
       <nav
-        className={`fixed top-0 w-full flex justify-between z-10 max-h-fit mx-auto items-center p-6 px-16 pt-12 text-white text-center transition-all duration-300 ${
+        className={`fixed top-0 w-full max-w-[100vw] p-8 flex justify-between z-10 max-h-fit mx-auto items-center sm:p-6 sm:px-16 sm:pt-12 text-white text-center transition-all duration-300 ${
           showNavbar ? "translate-y-0" : "-translate-y-full"
-        } ${isScrolled ? "bg-primary shadow-lg pt-6" : "bg-transparent"}`}
+        } ${isScrolled ? "bg-primary shadow-lg sm:pt-6" : "bg-transparent"}`}
       >
         <a href="#">
           <Image
@@ -37,17 +36,18 @@ export default function Navbar() {
             alt="Takedown Logo"
             width={250}
             height={250}
+            className="w-[80%]"
           />
         </a>
-        <ul className="flex justify-center space-x-16 underline font-semibold font-primary text-secondary text-xl">
+        <ul className="sm:flex justify-center space-x-16 underline font-semibold font-primary text-secondary text-xl sm:visible hidden">
           <li>
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">IEDC</a>
+            <a href="https://instagram.com/iedc.uec" target="_blank">IEDC</a>
           </li>
           <li>
-            <a href="#">Race</a>
+            <a href="https://instagram.com/race.cse" target="_blank">Race</a>
           </li>
         </ul>
         <div>
