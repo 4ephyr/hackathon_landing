@@ -27,7 +27,7 @@ const year = new Date().getFullYear();
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="mt-16">
       <div className="relative w-full h-full flex items-center overflow-hidden justify-center bg-transparent mb-8">
         <motion.div
           className="flex whitespace-nowrap gap-16 items-center"

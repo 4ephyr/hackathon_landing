@@ -20,9 +20,9 @@ export default function Registration() {
               Date and Timing :-
             </h1>
             <p className="text-primary text-xl font-primary italic font-light mt-2">
-              February 24, 25 2025 <span className="hidden sm:block"><br /></span>
-              Day I - 1 PM <span className="hidden sm:block"><br /></span>
-              to <span className="hidden sm:block"><br /></span>
+              February 24, 25 2025 <span className="hidden sm:inline"><br /></span>
+              Day I - 1 PM <span className="hidden sm:inline"><br /></span>
+              to <span className="hidden sm:inline"><br /></span>
               Day II - 3 PM
             </p>
           </div>
@@ -31,12 +31,12 @@ export default function Registration() {
               Venue :-
             </h1>
             <p className="text-primary text-xl font-primary italic font-light mt-2">
-              Seminar Hall <span className="hidden sm:block"><br /></span>A Block and B Block
+              Seminar Hall <span className="hidden sm:inline"><br /></span>A Block and B Block
             </p>
           </div>
         </div>
 
-        <div className="h-[200px] w-[2px] bg-primary hidden sm:block"></div>
+        <div className="h-[200px] w-[2px] bg-primary hidden sm:inline"></div>
 
         <div className="flex flex-col gap-8 sm:gap-14 sm:pl-16 p-0 text-center md:text-left sm:w-1/2 mt-8 sm:m-0">
           <div className="flex text-right justify-between sm:justify-normal sm:text-left gap-4 items-center">
@@ -45,6 +45,7 @@ export default function Registration() {
               icon="material-symbols:call"
               width="32"
               height="32"
+              noobserver
             />
             <p className="text-primary font-semibold text-xl italic">
               <a href="tel:+91 94977 97015">+91 94977 97015</a> <br /> <a href="tel:+91 80865 85030">+91 80865 85030</a>
@@ -56,6 +57,7 @@ export default function Registration() {
               icon="material-symbols:mail-rounded"
               width="32"
               height="32"
+              noobserver
             />
             <p className="text-primary font-semibold text-xl italic">
               <a href="mailto:takedown.cse@uec.ac.in">takedown.cse@uec.ac.in</a>
@@ -67,6 +69,7 @@ export default function Registration() {
               icon="material-symbols:location-on-rounded"
               width="32"
               height="32"
+              noobserver
             />
             <p className="text-primary font-semibold text-xl italic underline">
               <a href="https://maps.app.goo.gl/aBkBWGPAz3yUPyNj6">Universal Engineering College <br />
@@ -83,7 +86,7 @@ export default function Registration() {
           </h1>
         </div>
         <a
-          href="https://unstop.com/o/fByRjAH?lb=TIEWVrwbr"
+          href="https://forms.gle/eSZhRHWU6MEVGZBV8"
           target="_blank"
           className="text-secondary block max-w-fit font-semibold rounded-lg text-xl bg-primary sm:px-8 sm:py-4 p-3 hover:opacity-90 border-2 border-primary"
         >
