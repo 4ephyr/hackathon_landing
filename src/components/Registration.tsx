@@ -20,9 +20,9 @@ export default function Registration() {
               Date and Timing :-
             </h1>
             <p className="text-primary text-xl font-primary italic font-light mt-2">
-              February 24, 25 2025 <br />
-              Day I - 1 PM <br />
-              to <br />
+              February 24, 25 2025 <span className="hidden sm:block"><br /></span>
+              Day I - 1 PM <span className="hidden sm:block"><br /></span>
+              to <span className="hidden sm:block"><br /></span>
               Day II - 3 PM
             </p>
           </div>
@@ -31,7 +31,7 @@ export default function Registration() {
               Venue :-
             </h1>
             <p className="text-primary text-xl font-primary italic font-light mt-2">
-              Seminar Hall <br />A Block and B Block
+              Seminar Hall <span className="hidden sm:block"><br /></span>A Block and B Block
             </p>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function Registration() {
         <div className="h-[200px] w-[2px] bg-primary hidden sm:block"></div>
 
         <div className="flex flex-col gap-8 sm:gap-14 sm:pl-16 p-0 text-center md:text-left sm:w-1/2 mt-8 sm:m-0">
-          <div className="sm:flex gap-4 items-center">
+          <div className="flex text-right justify-between sm:justify-normal sm:text-left gap-4 items-center">
             <Icon
               className="text-secondary bg-primary p-3 rounded-full"
               icon="material-symbols:call"
@@ -50,7 +50,7 @@ export default function Registration() {
               <a href="tel:+91 94977 97015">+91 94977 97015</a> <br /> <a href="tel:+91 80865 85030">+91 80865 85030</a>
             </p>
           </div>
-          <div className="sm:flex gap-4 items-center">
+          <div className="flex text-right justify-between sm:justify-normal sm:text-left gap-4 items-center">
             <Icon
               className="text-secondary bg-primary p-3 rounded-full"
               icon="material-symbols:mail-rounded"
@@ -61,7 +61,7 @@ export default function Registration() {
               <a href="mailto:takedown.cse@uec.ac.in">takedown.cse@uec.ac.in</a>
             </p>
           </div>
-          <div className="sm:flex gap-4 items-center">
+          <div className="flex text-right justify-between sm:justify-normal sm:text-left gap-4 items-center">
             <Icon
               className="text-secondary bg-primary p-3 rounded-full"
               icon="material-symbols:location-on-rounded"
