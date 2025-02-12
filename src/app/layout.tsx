@@ -3,7 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "TakeDown Hackathon",
-  description: "hackathon Event Hosted By Universal Engineering College Thrissur, Kerala.",
+  description:
+    "hackathon Event Hosted By Universal Engineering College Thrissur, Kerala.",
 };
 
 export default function RootLayout({
@@ -12,32 +13,37 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
-      <link
-        rel="icon"
-        type="image/png"
-        href="/hackathon_landing/favicon/favicon-96x96.png"
-        sizes="96x96"
-      />
-      <link rel="icon" type="image/svg+xml" href="/hackathon_landing/favicon/favicon.svg" />
-      <link rel="shortcut icon" href="/hackathon_landing/favicon/favicon.ico" />
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/hackathon_landing/favicon/apple-touch-icon.png"
-      />
-      <link rel="manifest" href="/hackathon_landing/favicon/site.webmanifest" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"></link>
+        <link
+          rel="icon"
+          type="image/png"
+          href="/hackathon_landing/favicon/favicon-96x96.png"
+          sizes="96x96"
+        />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="/hackathon_landing/favicon/favicon.svg"
+        />
+        <link
+          rel="shortcut icon"
+          href="/hackathon_landing/favicon/favicon.ico"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/hackathon_landing/favicon/apple-touch-icon.png"
+        />
+        <link
+          rel="manifest"
+          href="/hackathon_landing/favicon/site.webmanifest"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='anonymous' />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
       </head>
-      <body
-        className="bg-secondary bg-[url('/hackathon_landing/natural-paper.png')] bg-repeat text-gray-900 
-        before:content-[''] before:absolute before:inset-0 
-        before:bg-[radial-gradient(circle,rgba(0,0,0,0.15)_10%,transparent_50%),radial-gradient(circle_at_20%_80%,rgba(0,0,0,0.1)_10%,transparent_50%),radial-gradient(circle_at_80%_20%,rgba(0,0,0,0.1)_10%,transparent_50%)] 
-        before:pointer-events-none before:z-10 antialiased"
-      >
+      <body className="bg-[url('/hackathon_landing/assets/Bg.png')] bg-no-repeat text-black antialiased bg-cover bg-center">
         {children}
       </body>
     </html>

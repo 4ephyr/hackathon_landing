@@ -9,12 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#280f00",
-        secondary: "#e0ad74",
+        primary: "#edebe7",
+        secondary: "#2e2e2e",
       },
       fontFamily: {
-        primary: ['Cormorant Garamond', 'serif'],
-        secondary: ['Lobster Two', 'cursive'],
+        primary: ['Poppins', 'serif'],
+        secondary: ['Montserrat', 'serif'],
       },
       boxShadow: {
         loader_top: "0 14px 15px rgba(0, 0, 0, 0.3)",
