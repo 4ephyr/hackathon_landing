@@ -17,8 +17,7 @@ export default {
         secondary: ['Montserrat', 'serif'],
       },
       boxShadow: {
-        loader_top: "0 14px 15px rgba(0, 0, 0, 0.3)",
-        loader_bot: "0 -14px 15px rgba(0, 0, 0, 0.3)"
+        image: "0 14px 85px rgba(0, 0, 0, 0.3)",
       }
     },
   },
