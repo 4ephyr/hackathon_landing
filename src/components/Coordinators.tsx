@@ -4,7 +4,7 @@ export default function Coordinators() {
   return (
     <div
       id="coordinators"
-      className="w-full sm:h-screen flex flex-col items-center"
+      className="w-full sm:h-full flex flex-col items-center"
     >
       <div className="text-center py-16">
         <h1 className="text-secondary font-bold sm:text-6xl text-4xl font-primary">
@@ -13,7 +13,7 @@ export default function Coordinators() {
       </div>
       <div className="w-full max-w-[70%]">
         <div className="w-full py-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 place-content-center">
             <div className="flex flex-col items-center gap-4">
               <Image
                 src="/hackathon_landing/assets/nighila.jpeg"
@@ -67,6 +67,25 @@ export default function Coordinators() {
                 </h1>
                 <p className="text-secondary font-primary italic text-lg">
                   Chief Coordinator
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col items-center gap-4 sm:col-span-2 md:col-span-5">
+              <Image
+                src="/hackathon_landing/assets/muneebha.jpg"
+                width={300}
+                height={300}
+                alt="diya"
+                quality={50}
+                className="rounded-xl shadow-image grayscale h-[400px] w-[400px] object-contain max-w-fit"
+                priority
+              />
+              <div className="text-center">
+                <h1 className="text-secondary font-bold font-primary text-2xl">
+                  Muneebha
+                </h1>
+                <p className="text-secondary font-primary italic text-lg">
+                  IEDC Faculty Coordinator
                 </p>
               </div>
             </div>
