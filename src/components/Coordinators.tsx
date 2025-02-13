@@ -75,7 +75,7 @@ export default function Coordinators() {
                 src="/hackathon_landing/assets/muneebha.jpg"
                 width={300}
                 height={300}
-                alt="diya"
+                alt="muneebha"
                 quality={50}
                 className="rounded-xl shadow-image grayscale h-[400px] w-[400px] object-contain max-w-fit"
                 priority
