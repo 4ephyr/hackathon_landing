@@ -72,7 +72,7 @@ export default function Coordinators() {
             </div>
             <div className="flex flex-col items-center gap-4 sm:col-span-2 md:col-span-5">
               <Image
-                src="/hackathon_landing/assets/muneebha.jpg"
+                src="/hackathon_landing/assets/muneebha.jpeg"
                 width={300}
                 height={300}
                 alt="muneebha"
